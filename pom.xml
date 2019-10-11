@@ -86,7 +86,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
+		    <!---	<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.8.3</version>
@@ -103,7 +103,7 @@
 						<goals>
 							<goal>report</goal>
 						</goals>
-					</execution>
+					</execution>  --->
 					<!-- Threshold -->
 					<execution>
 						<id>coverage-check</id>
