@@ -1,0 +1,4 @@
+com/asimio/demo/service/SomeBusinessService.class
+com/asimio/demo/Application.class
+com/asimio/demo/service/DefaultSomeBusinessService.class
+com/asimio/demo/rest/DemoController.class

@@ -1,0 +1,4 @@
+com/asimio/demo/rest/DemoControllerTest.class
+com/asimio/demo/ApplicationTests.class
+com/asimio/demo/service/DefaultSomeBusinessServiceTest.class
+com/asimio/demo/rest/DemoControllerIT.class
