@@ -86,15 +86,15 @@
 					</execution>
 				</executions>
 			</plugin>
-			                   <execution>
-						<id>coverage-check</id>
-						<goals>
-							<goal>check</goal>
-						</goals>
-						<configuration>
-							<rules>
-								<rule>
-									<element>CLASS</element>
+			        <execution>
+				    <id>coverage-check</id>
+				   <goals>
+					<goal>check</goal>
+				  </goals>
+					<configuration>
+						<rules>
+						    <rule>
+							<element>CLASS</element>
 									<excludes>
 										<exclude>com.asimio.demo.Application</exclude>
 									</excludes>
