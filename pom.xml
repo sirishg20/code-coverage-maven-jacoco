@@ -86,8 +86,7 @@
 					</execution>
 				</executions>
 			</plugin>
-					<!-- Threshold -->
-					<execution>
+			                   <execution>
 						<id>coverage-check</id>
 						<goals>
 							<goal>check</goal>
