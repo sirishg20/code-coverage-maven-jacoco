@@ -1,0 +1,30 @@
+JACOCO plugin for Sonarqube
+
+Basically, SonarQube server accepts reporting in a certain format and hence you could upload different reports to SonarQube server. JaCoCo exec-files can also be uploaded into SonarQube server.
+
+It provides the ability to feed SonarQube with code coverage data coming from JaCoCo (an open source and robust Java code coverage tool, developed by the authors of EclEmma).
+
+This plugin (provided by default with SonarQube 7.4+) allows you to load the JaCoCo data from its XML format for all the languages for which you can generate a JaCoCo report. It means you can load the JaCoCo data related to Java, Kotlin but also for Groovy and probably for Scala
+
+it uses following properties in order to do code coverage for JAVA projects
+
+
+
+
+
+If you are using sonar.coverage.jacoco.xmlReportPaths and you don't see your coverage data in SonarQube it means you don't have the JaCoCo Plugin installed (provided by default with SonarQube 7.4+).
+
+
+
+
+
+
+
+
+Cobertura plugin for Sonarqube
+
+ Cobertura is a free Java tool that calculates the percentage of code accessed by tests. It can be used to identify which parts of your Java program are lacking test coverage. It is based on jcoverage.
+This plugin provides the ability to feed SonarQube with code coverage data coming from Cobertura.
+
+The default location of the XML Cobertura report is: target/site/cobertura/coverage.xml . You can change it in Configure in the Settings > General Settings > Java > Cobertura page
+To launch Cobertura from Maven use this command:mvn cobertura:cobertura -Dcobertura.report.format=xml
